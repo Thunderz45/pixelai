@@ -54,7 +54,7 @@ export default function Header() {
                 className="flex items-center space-x-1.5 px-3.5 py-2 rounded-xl text-slate-600 hover:text-slate-800 hover:bg-slate-50 transition-all text-xs font-bold"
               >
                 <LayoutDashboard size={14} />
-                <span>Dashboard</span>
+                <span className="hidden sm:inline">Dashboard</span>
               </a>
 
               {/* Sign out */}
